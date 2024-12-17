@@ -1,6 +1,10 @@
 // skills Data
 
 const skills = [
+  { name: "React.js", progress: "72" },
+  { name: "Next.js", progress: "65" },
+  { name: "Nest.js", progress: "52" },
+  { name: "TypeScript", progress: "68" },
   { name: "Python", progress: "70" },
   { name: "ETL", progress: "60" },
   { name: "Web Scraping", progress: "60" },
@@ -22,7 +26,6 @@ const skills = [
   { name: "Docker", progress: "60" },
   { name: "Pytest", progress: "65" },
   { name: "JQuery", progress: "60" },
-  { name: "React", progress: "50" },
   { name: "Aws", progress: "70" },
   { name: "Azure", progress: "55" },
   { name: "GCP", progress: "55" },
@@ -34,20 +37,28 @@ const skills = [
 // projects data
 const projectData = [
   {
-    image: "assets/img/portfolio/internal-analytics.png",
+    image: "assets/img/portfolio/feltiv.png",
     url: "https://primecarers.co.uk/",
-    alt: "Internal Analytics Platform",
+    alt: "Feltiv",
     details:
-      "Procurement domain based Analytics platform for Analytics automation and ui based ETL pipeline configurations",
+      "Craft human-like synthesised voices with AI-powered voice automation & engineering, featuring pre-built neural voices and customisable option to train human voices",
     tech: "Python, Fast API, Numpy, Pandas, Sci-kit Learn, React.js, Postgresql ",
   },
   {
-    image: "assets/img/portfolio/code expert.png",
+    image: "assets/img/portfolio/upstrm.png",
     url: "https://sharelyze.com/",
-    alt: "Code Expert",
+    alt: "UPSTRM",
     details:
-      "web platform and Code editor extension for developers to improve coding efficiency built using multiple choice based LLMs configuration for prompts.",
+      "Transform how you run your business with our all-in-one platform. Built for business owners looking to get ahead.",
     tech: "Python, Fast API, GCP, LLM, Vertex AI, Postgres, Firestore, Mongodb ",
+  },
+  {
+    image: "assets/img/portfolio/basesolve.png",
+    url: "https://basesolve.com/",
+    alt: "Basesolve",
+    details:
+      " Streamlining & empowering your workflow from raw NGS data to uncomparably accurate insights for diagnostics as well as research",
+    tech: "Python, Django, React.JS, REST API, AWS, Mysql ",
   },
   {
     image: "assets/img/portfolio/zast.png",
